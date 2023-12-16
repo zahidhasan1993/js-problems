@@ -3,8 +3,8 @@ const calculator = require("./calculator");
 const findChar = require("./findChar");
 const findMax = require("./findMax");
 const upperCase = require('./upperCase');
-const countVC = require("./countVowelAndCons")
-
+const countVC = require("./countVowelAndCons");
+const palindrome = require("./palindrome");
 
 // console.log(reverseString('my name is khan'));
 // console.log(calculator(15,3,"/"));
@@ -12,3 +12,4 @@ const countVC = require("./countVowelAndCons")
 // console.log(findChar("hellow","l"));
 // console.log(upperCase("my name is khan"));
 // console.log(countVC('hellow'));
+console.log(palindrome("sir"));
